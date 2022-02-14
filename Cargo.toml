@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "src/client",
+    "src/drivers/linux",
+    "src/drivers/macos",
+    "src/drivers/windows",
+    "src/server",
+]
