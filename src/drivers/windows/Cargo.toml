@@ -1,17 +1,18 @@
 [package]
-name = "usboip_driver_windows"
+name = "usboip-driver-windows"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rmp = "0.8.10"
-rmp-serde = "1.0.0"
 
 # This is a WIP crate, not sure on stability.
 # use for USB HID driver
 [target.'cfg(target_os = "windows")'.dependencies.windows-kernel-rs]
 git = "https://github.com/continuity-kvm/windows-kernel-rs"
 rev = "f27c008113ee6c15ce10aca08699890cd17d275b"
+
+[dependencies.usboip-protocol]
+path = "../../protocol"
 
 [dependencies.tokio]
 version = "1.16.1"

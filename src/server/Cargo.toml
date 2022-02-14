@@ -1,6 +1,9 @@
 [package]
-name = "usboip_server"
-version = "0.0.0"
+name = "usboip-server"
+version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[dependencies.usboip-protocol]
+path = "../protocol"

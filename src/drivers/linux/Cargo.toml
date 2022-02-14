@@ -1,11 +1,9 @@
 [package]
-name = "usboip_driver_linux"
+name = "usboip-driver-linux"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rmp = "0.8.10"
-rmp-serde = "1.0.0"
 rusb = "0.9.0"
 
 # Add Linux kernel module crate? TODO.
@@ -13,3 +11,6 @@ rusb = "0.9.0"
 [dependencies.tokio]
 version = "1.16.1"
 features = ["rt", "net", "io-util"]
+
+[dependencies.usboip-protocol]
+path = "../../protocol"

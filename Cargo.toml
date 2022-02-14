@@ -5,4 +5,27 @@ members = [
     "src/drivers/macos",
     "src/drivers/windows",
     "src/server",
+    "src/protocol",
 ]
+
+[profile.dev]
+lto = true
+opt-level = 'z'
+codegen-units = 1
+debug = true
+
+[profile.dev.package."*"]
+codegen-units = 1
+opt-level = 'z'
+debug = true
+
+[profile.release]
+lto = true
+opt-level = 'z'
+codegen-units = 1
+debug = true
+
+[profile.release.package."*"]
+codegen-units = 1
+opt-level = 'z'
+debug = false
