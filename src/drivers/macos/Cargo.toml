@@ -1,5 +1,5 @@
 [package]
-name = "usboip-driver-macos"
+name = "usbvip-driver-macos"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,5 +11,5 @@ edition = "2021"
 version = "1.16.1"
 features = ["full"]
 
-[dependencies.usboip-protocol]
+[dependencies.usbvip-protocol]
 path = "../../protocol"

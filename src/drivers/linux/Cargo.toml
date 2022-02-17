@@ -1,5 +1,5 @@
 [package]
-name = "usboip-driver-linux"
+name = "usbvip-driver-linux"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,5 +12,5 @@ rusb = "0.9.0"
 version = "1.16.1"
 features = ["rt", "net", "io-util"]
 
-[dependencies.usboip-protocol]
+[dependencies.usbvip-protocol]
 path = "../../protocol"

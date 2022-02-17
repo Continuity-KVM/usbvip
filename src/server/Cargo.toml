@@ -1,9 +1,9 @@
 [package]
-name = "usboip-server"
+name = "usbvip-server"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 
-[dependencies.usboip-protocol]
+[dependencies.usbvip-protocol]
 path = "../protocol"

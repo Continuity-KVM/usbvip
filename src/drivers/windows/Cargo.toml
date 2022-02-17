@@ -1,5 +1,5 @@
 [package]
-name = "usboip-driver-windows"
+name = "usbvip-driver-windows"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,7 +11,7 @@ edition = "2021"
 git = "https://github.com/continuity-kvm/windows-kernel-rs"
 rev = "f27c008113ee6c15ce10aca08699890cd17d275b"
 
-[dependencies.usboip-protocol]
+[dependencies.usbvip-protocol]
 path = "../../protocol"
 
 [dependencies.tokio]
