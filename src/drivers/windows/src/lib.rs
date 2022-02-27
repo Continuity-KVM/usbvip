@@ -1,5 +1,6 @@
 //! The Windows USB-via-IP USB driver has not been developed yet.
 #![deny(
+    warnings,
     missing_copy_implementations,
     missing_debug_implementations,
     missing_docs,

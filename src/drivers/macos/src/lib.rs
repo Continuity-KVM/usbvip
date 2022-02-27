@@ -1,6 +1,7 @@
 //! macOS drivers has not been developed yet. The main developer does not own a Mac, and therefore
 //! cannot work on the driver. Contributions welcome.
 #![deny(
+    warnings,
     missing_copy_implementations,
     missing_debug_implementations,
     missing_docs,

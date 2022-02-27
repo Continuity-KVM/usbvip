@@ -1,5 +1,6 @@
 //! The client crate for USB-via-IP.
 #![deny(
+    warnings,
     missing_copy_implementations,
     missing_debug_implementations,
     missing_docs,

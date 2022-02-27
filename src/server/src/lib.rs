@@ -1,5 +1,6 @@
 //! The server/host crate for the USB-via-IP project.
 #![deny(
+    warnings,
     missing_copy_implementations,
     missing_debug_implementations,
     missing_docs,
