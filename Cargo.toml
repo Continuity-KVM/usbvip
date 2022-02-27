@@ -6,6 +6,7 @@ members = [
     "src/drivers/windows",
     "src/server",
     "src/protocol",
+    "src/common",
 ]
 
 [profile.dev]
