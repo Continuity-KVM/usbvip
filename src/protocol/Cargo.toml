@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rmp = "0.8.10"
-rmp-serde = "1.0.0"
+rmp = "0.8.11"
+rmp-serde = "1.1.0"
