@@ -15,5 +15,5 @@ rev = "f27c008113ee6c15ce10aca08699890cd17d275b"
 path = "../../protocol"
 
 [dependencies.tokio]
-version = "1.17.0"
+version = "1.18.2"
 features = ["full"]

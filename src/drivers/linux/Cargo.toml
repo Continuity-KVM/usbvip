@@ -9,7 +9,7 @@ rusb = "0.9.1"
 # Add Linux kernel module crate? TODO.
 
 [dependencies.tokio]
-version = "1.17.0"
+version = "1.18.2"
 features = ["rt", "net", "io-util"]
 
 [dependencies.usbvip-protocol]
