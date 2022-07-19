@@ -14,3 +14,4 @@
     unused_extern_crates,
     variant_size_differences
 )]
+#![no_std]
