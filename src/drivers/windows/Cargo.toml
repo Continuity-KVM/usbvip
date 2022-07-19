@@ -13,7 +13,3 @@ rev = "f27c008113ee6c15ce10aca08699890cd17d275b"
 
 [dependencies.usbvip-protocol]
 path = "../../protocol"
-
-[dependencies.tokio]
-version = "1.19.0"
-features = ["full"]

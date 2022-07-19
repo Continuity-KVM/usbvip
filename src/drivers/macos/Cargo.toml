@@ -7,9 +7,5 @@ edition = "2021"
 
 # TODO: macOS USB (userland) driver, use XCode and bindgen
 
-[dependencies.tokio]
-version = "1.19.0"
-features = ["full"]
-
 [dependencies.usbvip-protocol]
 path = "../../protocol"
