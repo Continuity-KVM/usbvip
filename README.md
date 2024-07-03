@@ -20,7 +20,8 @@ devices.
 
 The 'USB/IP' project hosted [here][usbslaship] hasn't been updated since 2011.
 
-I also don't think it has encryption available. USB (via) IP aims for a modern solution, with memory safety, encryption, and performance 
+I also don't think it has encryption available. USB (via) IP aims for a modern
+solution, with memory safety, encryption, and performance .
 
 ## How do I install this?
 
