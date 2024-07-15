@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rusb = "0.9.1"
+rusb = "0.9.4"
 
 # Add Linux kernel module crate? TODO.
 
